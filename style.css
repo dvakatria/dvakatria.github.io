@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+
+body {
+    font-family: 'Comfortaa';
+    background-color: #404040;
+    padding: 100px 0;
+}
+
+.container {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+    background: url(banner.jpg) no-repeat center center / cover;
+    color: #fff;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(33, 48, 46);
+    margin: 10px 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    color: rgb(46, 133, 118);
+    padding: 20px;
+    font-weight: bold;
+    border-right: 2px solid rgb(71, 51, 51);
+    transition: background .5s ease;
+}
+
+.nav li a:hover {
+    background: rgb(74, 119, 122);
+    color: rgb(255, 255, 255);
+}
+
+.cw {
+    display: flex;
+
+}
+
+.content {
+    width: 70%;
+    padding: 5px;
+}
+
+.sideb {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sm li {
+    margin: 25px 0;
+    transition: transform .5s ease;
+}
+
+.sm li a {
+    text-decoration: none;
+    color: rgb(111, 153, 144);
+}
+
+.sm li:hover {
+    transform: translatex(10px);
+}
+
+.content p {
+    line-height: 20px;
+}
+
+.ubuntufc {
+    border: 2px solid #9a9a9a;
+}
+
+.dvaproj {
+    border: 2px solid #9a9a9a;
+}
